@@ -341,10 +341,9 @@ end reset*/
 /*stay tuned ends*/
 
 .worldmap-text {
-	background-image: url("../images/cosmos.jpg");
-	background-repeat: no-repeat;
-	/* background: linear-gradient(to right, #1f2f51, #7fd6dd); */
-	padding: 15px 0 0 0;
+	/* background-image: url("../images/cosmos.jpg");
+	background-repeat: no-repeat; */
+	background: linear-gradient(to right, #1f2f51, #7fd6dd);
 	width: 100%;
 	display: inline-block;
 	text-align: center;
@@ -352,6 +351,7 @@ end reset*/
 
 .fa-paper-plane-o {
 	color: #1bb8f7;
+	padding: 15px 0 0 0;
 }
 
 .fa-paper-plane-o:hover {
@@ -394,18 +394,18 @@ end reset*/
 	left: 0;
 }
 
+.toTheTop {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
 .toTheTop a {
 	color: #fff;
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
 	font-weight: 200;
 	text-decoration: none;
-	
-}
-
-.toTheTop {
-	display: inline-block;
-	width: 100%;
 }
 
 .toTheTop a:hover {
