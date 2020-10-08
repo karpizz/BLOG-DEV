@@ -39,6 +39,7 @@ table {
 end reset*/
 
 /*social icons start*/
+
 .top {
 	display: inline-block;
 	width: 100%;
@@ -67,6 +68,7 @@ end reset*/
 /*social icons end*/
 
 /*navigation start*/
+
 .navigacija img {
 	width: 100px;
 }
@@ -207,10 +209,17 @@ end reset*/
 /*main text start*/
 
 .main {
-	background-image: url("../images/cosmos.jpg");
-	background-repeat: no-repeat;
+	background: #C6FFDD;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background-image: radial-gradient(circle at right,#f5ff99 0%,#29c4a9 100%)!important; */
+	/* background-image: url("../images/cosmos.jpg"); */
+	/* background-repeat: no-repeat;
 	display: flex;
-	justify-content: center;
+	justify-content: center; */
 }
 
 .main h2 {
@@ -239,6 +248,10 @@ end reset*/
 /*testimonial start*/
 
 .apie {
+	display: inline-block;
+	/* width: 1000px;
+	margin-left: calc((100% - 1000px) / 2);
+	margin-right: calc((100% - 1000px) / 2); */
 	background-color: #000;
 	min-height: 377px;
 	display: flex;
@@ -246,25 +259,42 @@ end reset*/
 	justify-content: space-around;
 }
 
+.apie-bg {
+	display: inline-block;
+	width: 1000px;
+	margin-left: calc((100% - 1000px) / 2);
+	margin-right: calc((100% - 1000px) / 2);
+}
+
 .img-circle {
+	display: inline-block;
 	margin: 0;
 	width: 180px;
 }
 
 .apie p {
-	margin: 1% 17%;
+	display: inline-block;
+	width: 80%;
+	/* margin: 1% 17%; */
 	color: #fff;
 	text-align: left;
 	font-size: 18px;
 	font-family: Pacifico, 'Raleway', sans-serif;
+	margin-bottom: 3%;
 }
 
 .name p {
-	margin: 1% 17%;
+	display: inline-block;
+	/* margin: 1% 17%; */
 	color: #fff;
 	font-size: 16px;
 	font-weight: 700;
 	font-family: Pacifico, 'Raleway', sans-serif;
+}
+
+.credentials {
+	display: inline-block;
+	float: left;
 }
 
 /*testimonial end*/
@@ -275,11 +305,9 @@ end reset*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.nuotrauka {
 	height: 400px;
-	background-image: url("../images/cosmos.jpg");
+	background: linear-gradient(to right, #1f2f51, #7fd6dd);
+	/* border-bottom: 1px solid white; */
 }
 
 .nuotrauka h3 {
@@ -383,7 +411,7 @@ end reset*/
 	position: relative;
 	border: none;
 	padding-bottom: 80%;
-} 
+}
 
 .worldmap iframe {
 	display: inline-block;

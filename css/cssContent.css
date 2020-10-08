@@ -44,39 +44,35 @@ table {
 /*
 end reset*/
 
-
 .navigacija img {
 	width: 100px;
 }
 
-.woops {
-	display: flex;
-	justify-content:flex-start;
-	margin: 0.5% 2%;
-}
 
 /*social icons start*/
 
-.social-top {
+.top {
+	display: inline-block;
+	width: 100%;
 	background-color: #000;
 	font-size: 18px;
-	max-height: 28px;
 }
 
-.social-top ul li {
-	padding: 0;
-	margin: 0 0 0 5px;
-	display: inline;
+.top-socials {
+	display: inline-block;
+	margin: 0.7% 0 0 86%;
+	width: 100%;
 	text-decoration: none;
+	letter-spacing: 5px;
 }
 
-.social-top a:hover i{
+.top-socials a:hover i {
 	color: aqua;
 	transform: scale(1.4);
 	transition: all .4s ease-in-out;
 }
 
-.social-top a {
+.top-socials a {
 	color: #fff;
 }
 
@@ -209,7 +205,12 @@ background: linear-gradient(to left, #75d3d8 , #03687c);
 /*main text start*/
 
 .main {
-	margin:8% 0;
+	background-image: radial-gradient(circle at right,#f5ff99 0%,#29c4a9 100%)!important;
+}
+
+.row.straipsnis {
+	margin-top: 8%;
+	margin-bottom: 5%;
 }
 
 .what {
@@ -219,10 +220,8 @@ background: linear-gradient(to left, #75d3d8 , #03687c);
 	background-color: #fff;
 }
 
-.what img {
-	min-width: 100%;
-    max-width: 100%;
-    height: auto;
+.row.straipsnis > img {
+	width: 70%;
     margin: 0 0;
     padding: 0;
 }
