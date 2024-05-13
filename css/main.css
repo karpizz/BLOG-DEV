@@ -49,7 +49,7 @@ end reset*/
 
 .top-socials {
 	display: inline-block;
-	margin: 0.7% 0 0 86%;
+	margin: 0.7% 0 0 0;
 	width: 100%;
 	text-decoration: none;
 	letter-spacing: 5px;
@@ -403,8 +403,6 @@ end reset*/
 }
 
 .worldmap {
-	/* background-image: url("../images/cosmos.jpg");
-	background: linear-gradient(to right, #1f2f51, #7fd6dd); */
 	color: #1fcfe2;
 	width: 100%;
 	display: inline-block;
@@ -478,7 +476,6 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1.5px;
 }
-
 @media only screen and (max-width: 1200px) {}
 
 @media (min-width: 1200px) {}
